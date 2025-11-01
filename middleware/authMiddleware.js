@@ -14,3 +14,5 @@ export const protect = async (req, res, next) => {
     res.status(401).json({ message: "Invalid token" });
   }
 };
+
+// auth middleware to protect routes
