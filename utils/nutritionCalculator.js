@@ -27,4 +27,5 @@ export const calculateNutrition = (profile) => {
       fat: Math.round(fat),
     };
   };
+// nutritition calculator utility function
   
